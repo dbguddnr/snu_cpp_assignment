@@ -1,0 +1,5 @@
+﻿?뚯뒪.cpp(14,16): warning : illegal character encoding in string literal [-Winvalid-source-encoding]
+?뚯뒪.cpp(26,17): warning : illegal character encoding in string literal [-Winvalid-source-encoding]
+?뚯뒪.cpp(28,18): warning : illegal character encoding in string literal [-Winvalid-source-encoding]
+?뚯뒪.cpp(41,11): warning : illegal character encoding in string literal [-Winvalid-source-encoding]
+  Project3.vcxproj -> C:\Users\yhwst\source\repos\Project3\Debug\Project3.exe
