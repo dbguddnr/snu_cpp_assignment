@@ -1,34 +1,15 @@
+input integer a
 
 
-int prime(int x)
-{
-	int abx;
-	if (x >= 0)
-		abx = x;
+if a=1 or 0 or -1
+	print "a is not prime"
+else
+	for 1<=i<=a/2 //어떤 수의 절반까지의 약수가 1밖에 없을 경우 그 수는 소수이다. 
+		count=count number of divisor of a
+	if count=1
+		print "a is prime"
 	else
-		abx = -x;
+		print "a is not prime"
 
 
-	if (abx == 1 || abx == 0)
-	{
-		cout << x << "은(는) 소수가 아닙니다.\n";
-		return 0;
-	}
-	else
-	{
-		int count = 0;
-		for (int i = 1; i <= abx/2; i++)
-		{
-			if (abx % i == 0)
-				count++;
-		}
-		if (count == 1)
-			cout << x << "은(는) 소수입니다.\n";
-		else
-			cout << x << "은(는) 소수가 아닙니다.\n";
-
-		return 0;
-	}
-
-}
 
